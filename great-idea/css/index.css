@@ -72,8 +72,8 @@ h1, h2, h3, h4, h5 {
 
 .first-row {
 	display: flex;
-	justify-content: flex-start;
-	
+	padding-top: 2.5%;
+
 }
 
 .third-row {
@@ -102,7 +102,8 @@ h5 {
 }
 
 .logo {
-	margin-left: 10%;
+	/* margin-left: 2%; */
+	/* padding-bottom: 5%; */
 }
 
 .second-row {
@@ -113,6 +114,8 @@ h5 {
 .innovation-header {
 	display: flex;
 	font-size: 65px;
+	justify-content: center;
+	margin-right: 650px;
 
 }
 
@@ -149,20 +152,24 @@ h5 {
 	padding-bottom: 22px;
 }
 
+.downdown {
+	margin-bottom: 800px;
+}
 
 footer h5 {
 	margin: 1%;
+}
+
+.bottom-three p {
+	width: 270px;
 }
 
 .copy {
 	margin: 2px 300px 2px;
 }
 
-.nav-logo {
-	display: flex;
-}
-
 .nav-logo  {
+	display: flex;
 	color: grey;
 	padding-top: 15px;
 }
@@ -259,4 +266,8 @@ ul {
 
 .copy {
 	margin-left: 350px;
+}
+
+.facts p {
+	width: 400px;
 }
